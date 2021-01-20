@@ -4,3 +4,21 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: auto;
+    background-color: beige;
+}
+.name, .email, .age, .role, .recommend, .feature, .improve, .comments, .submit{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
