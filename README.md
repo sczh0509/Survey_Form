@@ -1,0 +1,1 @@
+This is the second web development project of the FreeCodeCamp Responsive Web Design course. This particular projects requires a survey form to be built with pure HTML and CSS.
