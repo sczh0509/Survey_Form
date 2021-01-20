@@ -14,12 +14,12 @@
     line-height: 45px;
 }
 #description {
-    font-style: ;
+    font-style: italic;
 }
 #survey-form {
     display: flex;
     flex-direction: column;
-    width: 40vw;
+    width: 700px;
     margin: auto;
     background-color: beige;
     border: 1px solid beige;
@@ -63,4 +63,13 @@ input[type="radio"], input[type="checkbox"] {
     color: white;
     font-weight: 700;
     font-size: 16px;
+}
+#submit:hover {
+    background-color: rgb(226, 199, 164);
+    border: 1px solid rgb(226, 199, 164);
+}
+@media (max-width: 715px) {
+    #survey-form {
+        width: 500px;
+    }
 }
