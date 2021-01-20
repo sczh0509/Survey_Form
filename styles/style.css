@@ -9,6 +9,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    line-height: 45px;
+}
+#description {
+    font-style: ;
 }
 #survey-form {
     display: flex;
@@ -16,9 +22,45 @@
     width: 40vw;
     margin: auto;
     background-color: beige;
+    border: 1px solid beige;
+    border-radius: 5px;
 }
 .name, .email, .age, .role, .recommend, .feature, .improve, .comments, .submit{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 35px;
+}
+#name, #email, #number, #dropdown, #feature{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: auto;
+    padding: 5px;
+    font-size: 18px;
+}
+input[type="radio"], input[type="checkbox"] {
+    transform: scale(1.3);
+}
+#comments {
+    font-size: 18px;
+    padding: 5px;
+    height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+}
+.submit {
+    margin-bottom: 40px;
+}
+#submit {
+    width: 100%;
+    height: 40px;
+    background-color: burlywood;
+    border: 1px solid burlywood;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
 }
